@@ -35,7 +35,7 @@ BuildRequires: postgresql-devel
 DB On Demand API server
 
 %prep
-%setup -n dbod-api-%{version}
+%setup -c dbod-api-%{version}
 exit 0
 
 %build
