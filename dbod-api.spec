@@ -15,7 +15,7 @@ Release: 0
 License: GPL
 Group: Applications
 ExclusiveArch: x86_64
-Source: DBOD-%{version}.tar.gz
+Source: dbod-api-%{version}.tar.gz
 URL: https://github.com/cerndb/dbod-api
 Distribution: DBOD
 Vendor: CERN
