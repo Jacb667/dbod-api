@@ -9,7 +9,7 @@
 %define debug_package %{nil} # Disables building debug RPM
 
 Summary: DB On Demand API
-Name: cerndb-sw-dbod-core
+Name: cerndb-sw-dbod-api
 Version: %{version}
 Release: 0 
 License: GPL
@@ -44,7 +44,7 @@ exit 0
 %install
 mkdir -p $RPM_BUILD_ROOT/usr/local/dbod-venv/dbod-api
 virtualenv $RPM_BUILD_ROOT/usr/local/dbod-venv/dbod-api
-source $RPM_BUILD_ROOT/usr/local/dbod-venv/dbod-api/activate
+source $RPM_BUILD_ROOT/usr/local/dbod-venv/dbod-api/bin/activate
 pip install -r requirements.pip
 python setup.py install
 mkdir -p $RPM_BUILD_ROOT/var/log/dbod
