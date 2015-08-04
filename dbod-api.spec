@@ -2,7 +2,7 @@
 # Database On Demand (DBOD) API server SPEC file
 #
 
-%define version 0.5
+%define version 0.5.0
 
 # Trying to avoid Koji post-generation issues
 %define __arch_install_post %{nil} # /usr/lib/rpm/check-buildroot
