@@ -28,7 +28,7 @@ BuildRequires: python-virtualenv
 BuildRequires: postgresql-devel
 BuildRequires: gcc
 BuildRequires: openldap-devel
-BuildRequries: cyrus-sasl-devel
+BuildRequires: cyrus-sasl-devel
 
 # Requirements
 # Requirements for the package are not specified here
